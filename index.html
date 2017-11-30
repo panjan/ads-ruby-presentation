@@ -30,9 +30,6 @@
 					<p>
 						<small>Created by <a href="https://github.com/kubamahnert">Jakub Mahnert</a> and <a href="https://github.com/panjan">Jan Zdráhal</a></small>
 					</p>
-					<aside class="notes">
-						Hello everyone. Let me introduce our hackathon project - the GoodData datawarehouse driver for Ruby.
-					</aside>
 				</section>
 				<section>
 					<section>
@@ -76,9 +73,47 @@
 						<aside class="notes">
 							There is already a java server in place written on top of Apache Thrift
 							all we had to do was write a  client on top of the Thrift protocol
-							
 						</aside>
 					</section>
+				</section>
+				<section>
+					<section>
+						<h1>What can it do</h1>
+						<aside class="notes">
+							So to the point - what can the driver actually do?
+						</aside>
+					</section>
+					<section>
+						<ul>
+							<li class="fragment">execute queries on the database (SELECT..)</li>
+							<li class="fragment">execute statements on the database (UPDATE, INSERT, CREATE TABLE..)</li>
+							<li class="fragment">fetch results with metadata (column names, types..)</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>How it helped us and everyone</h1>
+						<aside class="notes">
+							Now the most important part - how this project helped us and everyone else
+						</aside>
+					</section>
+					<section>
+						<ul>
+							<li class="fragment">no need to use JVM in local development</li>
+							<li class="fragment">faster response loop</li>
+							<li class="fragment">endless performance optimalization possibilities</li>
+							<li class="fragment">more platform possibilities</li>
+						</ul>
+					</section>
+
+					<aside class="notes">
+						no need to use JVM locally - or actually anywhere else
+						much faster response loop
+						endless performance optimalization possibilities, as now can use every ruby interpreter and pick
+						the right one for the job
+						and finally the posibility to run on even more platforms
+					</aside>
 				</section>
 				<section>
 					<section>
