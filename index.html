@@ -21,7 +21,7 @@
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 	</head>
-	<body>
+	<body style="background: #4d7e65">
 		<div class="reveal">
 			<div class="slides">
 				<section>
@@ -30,6 +30,29 @@
 					<p>
 						<small>Created by <a href="https://github.com/kubamahnert">Jakub Mahnert</a> and <a href="https://github.com/panjan">Jan Zdráhal</a></small>
 					</p>
+				</section>
+				<section id="fragments">
+					<img style="border: 0; background: none; box-shadow: none;"
+					     width="25%"
+					     height="25%"
+					     data-src="java.png"
+					     alt="Java" />
+					<img style="border: 0; background: none; box-shadow: none;"
+					     width="25%"
+					     height="25%"
+					     data-src="jruby.png"
+					     alt="JRuby" />
+					<img style="border: 0; background: none; box-shadow: none;"
+					     width="25%"
+					     height="25%"
+					     data-src="ruby-logo.png"
+					     alt="Ruby"
+							 class="fragment" />
+					<aside class="notes">
+						Up until yeasterday, there were only Java and Jruby drivers for ADS.
+
+						Now we have one for Ruby too.
+					</aside>
 				</section>
 				<section>
 					<section>
@@ -127,7 +150,7 @@
 					     width="50%"
 							 height="50%"
 							 data-src="octocat.png"
-							 alt="GitHub">
+							 alt="GitHub" />
 					<br/>
 					<a href="https://github.com/panjan/ads-ruby">github.com/panjan/ads-ruby</a>
 					<br/>
