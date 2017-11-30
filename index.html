@@ -30,6 +30,9 @@
 					<p>
 						<small>Created by <a href="https://github.com/kubamahnert">Jakub Mahnert</a> and <a href="https://github.com/panjan">Jan Zdráhal</a></small>
 					</p>
+					<aside class="notes">
+						Hello everyone. Let me introduce our hackathon project - the GoodData datawarehouse driver for Ruby.
+					</aside>
 				</section>
 				<section id="fragments">
 					<img style="border: 0; background: none; box-shadow: none;"
@@ -49,8 +52,13 @@
 					     alt="Ruby"
 							 class="fragment" />
 					<aside class="notes">
+<<<<<<< HEAD
 						Up until yeasterday, there were only Java and Jruby drivers for ADS.
 						<br>
+=======
+						Up until yesterday, there were only Java and Jruby drivers for ADS.
+
+>>>>>>> 5a327a6b7073bda72d58da107e5e1ebfc665638a
 						Now we have one for Ruby too.
 					</aside>
 				</section>
@@ -97,9 +105,7 @@
 					</section>
 					<section data-background="apache-logo.png" data-background-size="contain">
 						<aside class="notes">
-							There is already a java server in place written on top of Apache Thrift
-							<br>
-							all we had to do was write a  client on top of the Thrift protocol
+							The ADS server was built using Apache Thrift. It can generate code to many languages from a prescription. We used that to generate the client code and built the driver on top of that.
 						</aside>
 					</section>
 				</section>
